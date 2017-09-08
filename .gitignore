@@ -30,7 +30,10 @@ Temporary Items
 # End of https://www.gitignore.io/api/macos
 
 # ingore resilio sync temp files
-.*.rsls
+*.rsls
 
 # ingore jupyter notebook support files
+.*
 
+# ingore the data related files to prevent uploading large files
+*.csv
